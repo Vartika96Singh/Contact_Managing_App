@@ -30,7 +30,7 @@ class AddContact extends React.Component{
             <label htmlFor="name">Email</label>
             <input type="text" name='email' placeholder='email' value={this.state.email} onChange={(e)=>this.setState({email:e.target.value})} />
             </div>
-            <button className='btn blue'>Add</button>
+            <button className='btn-blue'>Add</button>
 
             </form>
 
